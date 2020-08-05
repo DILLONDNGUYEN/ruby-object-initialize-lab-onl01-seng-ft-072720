@@ -5,5 +5,6 @@
 # defaults the breed argument to "Mutt" in an instance variable @breed
 
 class Dog
-  def initialize(dog_name, dog_breed)
+  def initialize(dog_name, dog_breed = "Mutt")
+    
 end
